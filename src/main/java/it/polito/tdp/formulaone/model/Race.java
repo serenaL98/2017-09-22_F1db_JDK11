@@ -74,8 +74,10 @@ public class Race {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+	@Override
+	public String toString() {
+		return name + " ("+ circuitId +") ";
+	}
 	
-	
-
 }
 
